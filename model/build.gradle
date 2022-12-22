@@ -2,9 +2,5 @@ plugins {
     id 'java-library'
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-        vendor = JvmVendorSpec.ADOPTOPENJDK
-    }
-}
+sourceCompatibility = 17
+targetCompatibility = 17
